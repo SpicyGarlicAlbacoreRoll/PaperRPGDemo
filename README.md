@@ -1,6 +1,6 @@
 Progress builds of a Paper Mario inspired turn-based small numbers RPG, built in Unity.
 
-Currently in progress on barebones combat system. Only jump command 'works' (sometimes it requires a page reload...).
+Currently in progress on barebones combat system. Only jump command 'works' (sometimes enter won't work, but a mouseclick will work and subsequent enter will too).
 
 V.2 Added Realtime CSG Generated level
 
