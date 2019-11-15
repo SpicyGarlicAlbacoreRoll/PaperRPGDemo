@@ -2,6 +2,8 @@ Progress builds of a Paper Mario inspired turn-based small numbers RPG, built in
 
 Currently in progress on barebones combat system. Only jump command 'works' (sometimes enter won't work, but a mouseclick will work and subsequent enter will too).
 
+V.7 Increased size of command submenu panel
+
 v.6 Added command submenu. Only bootbutton->jump command actually works.
 
 v.5 Battles now have an end and enemy turn states! When the player wins a battle they get teleported back to the overworld. No lose state yet. Endlessly running into enemies when attacking is now fixed (maybe).
