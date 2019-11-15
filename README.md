@@ -2,6 +2,8 @@ Progress builds of a Paper Mario inspired turn-based small numbers RPG, built in
 
 Currently in progress on barebones combat system. Only jump command 'works' (sometimes enter won't work, but a mouseclick will work and subsequent enter will too).
 
+v.6 Added command submenu. Only bootbutton->jump command actually works.
+
 v.5 Battles now have an end and enemy turn states! When the player wins a battle they get teleported back to the overworld. No lose state yet. Endlessly running into enemies when attacking is now fixed (maybe).
 
 V.4 Added enemy selector to combat. If enemy count is greater than two and any enemy after the 2nd is selected the player will get caught endlessly running into the first enemy. :sweat_smile:
@@ -24,8 +26,10 @@ Overworld:
 
 Battle:
 
-    -A/D: rotate command menu
-    -ENTER/MouseClick.SPACEBAR: confirm command (Jump command only one that works atm)
+    -A/D: rotate through command menus
+    -ENTER/MouseClick.SPACEBAR: confirm command menu (Jump command only one that works atm)
+    -W/S: Cycle through commands in seleced command menu
+    -E: confirm command in command menu (Only regular jump works)
     -SPACEBAR: Confirm enemy selection for command
 
         note: ENTER KEY in battle won't work if you click anywhere else. In those cases clicking on the command will still work, and so will subsequent enter commands
