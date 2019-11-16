@@ -2,6 +2,8 @@ Progress builds of a Paper Mario inspired turn-based small numbers RPG, built in
 
 Currently in progress on barebones combat system. Only jump command 'works' (sometimes enter won't work, but a mouseclick will work and subsequent enter will too).
 
+V.8 Added inventory submenu with icon, edited panel placement.
+
 V.7 Increased size of command submenu panel
 
 v.6 Added command submenu. Only bootbutton->jump command actually works.
@@ -29,9 +31,10 @@ Overworld:
 Battle:
 
     -A/D: rotate through command menus
-    -ENTER/MouseClick.SPACEBAR: confirm command menu (Jump command only one that works atm)
+    -ENTER/MouseClick/SPACEBAR: confirm command menu (Jump command only one that works atm)
     -W/S: Cycle through commands in seleced command menu
-    -E: confirm command in command menu (Only regular jump works)
+    -F: confirm command in command menu (Only regular jump works)
+    -BACKSPACE: return to command menus menu
     -SPACEBAR: Confirm enemy selection for command
 
         note: ENTER KEY in battle won't work if you click anywhere else. In those cases clicking on the command will still work, and so will subsequent enter commands
