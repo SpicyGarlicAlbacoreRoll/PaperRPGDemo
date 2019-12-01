@@ -2,6 +2,8 @@ Progress builds of a Paper Mario inspired turn-based small numbers RPG, built in
 
 Currently in progress on barebones combat system. Only jump command 'works' (sometimes enter won't work, but a mouseclick will work and subsequent enter will too).
 
+V.9 Added example of soon-to-be implemented tweened jump command animation in beginning of level's background (implemented using Demigiant's "DOTween" engine asset).
+
 V.8 Added inventory submenu with icon, edited panel placement.
 
 V.7 Increased size of command submenu panel
